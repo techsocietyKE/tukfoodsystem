@@ -1,9 +1,18 @@
-import Image from 'next/image'
+import Header from '@/components/layout/Header'
+import Hero from '@/components/layout/Hero'
+import HomeMenu from '@/components/layout/HomeMenu'
+
 
 export default function Home() {
   return (
- <div className='text-lg text-white'>
-    <h1>This is your food Ordering System</h1>
- </div>
+    <>
+
+    <Hero/>
+    <HomeMenu/>
+    <section>
+      
+    </section>
+    </>
+ 
   )
 }
